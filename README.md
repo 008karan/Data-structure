@@ -5,5 +5,6 @@ linked list ,stack, queue,sorting algorithm etc
                      b.Bubble sort
                      c.Quick sort
                      d.Merge sort
+                     e.Quick sort
 
 # 2.Linked list
