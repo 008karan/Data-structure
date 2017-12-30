@@ -9,7 +9,7 @@ struct Node
 };
 struct Node*head;
 
-void Insert(int data,int n) //INSERT AT BEGINING
+void Insert(int data,int n)                    //INSERT AT BEGINING
 { Node* temp=new Node();
   temp->data=data;
   temp->next=NULL;
@@ -38,7 +38,7 @@ void Print()
     }
     printf("\n");
 }
- void Append(int data)    // INSERT AT TAIL
+ void Append(int data)                         // INSERT AT TAIL
  {
      Node* temp=new Node();
      temp->data=data;
@@ -50,26 +50,26 @@ void Print()
 
 
  }
- void Delete(int n)// DELETE NTH NODE
+ void Delete(int n)                           // DELETE NTH NODE
  { Node *temp=head;
    Node * prev;
-     if (n==1)//IF FIRST NODE TO DELETE
+     if (n==1)                                //IF FIRST NODE TO DELETE
      {
          head =temp->next;
-         delete temp;// FREE MEMORY OF DELETED NODE
+         delete temp;                         // FREE MEMORY OF DELETED NODE
          return;
      }
-    for (int i =1;i<n-1;i++) // GOTO (N-1)th NODE
+    for (int i =1;i<n-1;i++)                  // GOTO (N-1)th NODE
      {
         temp=temp->next;
     }
     prev=temp;
     temp=temp->next;
     prev->next=temp->next;
-    delete temp;// FREE MEMORY OF DELETED NODE
- }
+    delete temp;                              // FREE MEMORY OF DELETED NODE
+ }   
 
-void Reverse()// REVERSE THE LINKED LIST
+void Reverse()                                // REVERSE THE LINKED LIST
 {Node*prev,*current,*next;
  prev=NULL;
  current=head;
@@ -82,7 +82,7 @@ void Reverse()// REVERSE THE LINKED LIST
  }
     head=prev;
 }
-void recursion_print(struct Node*p)//REVERSE PRINT USING RECURSION
+void recursion_print(struct Node*p)            //REVERSE PRINT USING RECURSION
 {
 
     if (p==NULL)
@@ -92,7 +92,7 @@ void recursion_print(struct Node*p)//REVERSE PRINT USING RECURSION
      printf("%d ",p->data);
 
 }
-void recursion_reverse(struct Node*p)//REVERSE THE LINKED LIST USING RECURSION
+void recursion_reverse(struct Node*p)         //REVERSE THE LINKED LIST USING RECURSION
 {
     if (p->next==NULL)
     {
