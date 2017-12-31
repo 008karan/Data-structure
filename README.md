@@ -7,4 +7,7 @@ linked list ,stack, queue,sorting algorithm etc
                      d.Merge sort
                      e.Quick sort
 
-# 2.Linked list
+# 2.Linked list      
+                     a.Singly linked list
+                     b.Doubly linked list
+# 3.Stack
