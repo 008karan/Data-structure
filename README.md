@@ -1,18 +1,22 @@
 # Data-structure
 
-## 1.Sorting algorithm
+## Sorting algorithm
                      a.Selection sort
                      b.Bubble sort
                      c.Quick sort
                      d.Merge sort
                      e.Quick sort
+## Searching     
+                     a.Binary search
 
-## 2.Linked list      
+## Linked list      
                      a.Singly linked list
                      b.Doubly linked list
-## 3.Stack
-## 4.Queue
-## 5.Tree             
+## Stack          
+                     a.use of stack in balancing parenthesis 
+## Queue
+                     a.queue implementation
+## Tree             
                      a.Binary search tree
                      b.tree traversal methods
                      c.tree operations
