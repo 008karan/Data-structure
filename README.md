@@ -1,22 +1,22 @@
 # Data-structure
 
 ## Sorting algorithm
-                     a.Selection sort
-                     b.Bubble sort
-                     c.Quick sort
-                     d.Merge sort
-                     e.Quick sort
+ - Selection sort
+ - Bubble sort
+ -  Quick sort
+ - Merge sort
+ - Quick sort
 ## Searching     
-                     a.Binary search
+- Binary search
 
 ## Linked list      
-                     a.Singly linked list
-                     b.Doubly linked list
+- Singly linked list
+- Doubly linked list
 ## Stack          
-                     a.use of stack in balancing parenthesis 
+- use of stack in balancing parenthesis 
 ## Queue
-                     a.queue implementation
+- queue implementation
 ## Tree             
-                     a.Binary search tree
-                     b.tree traversal methods
-                     c.tree operations
+- Binary search tree
+- tree traversal methods
+- tree operations
